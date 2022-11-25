@@ -241,7 +241,7 @@ h3{
     margin-bottom: 5%;
     text-align: left;
    
-    background: #abe4ee;
+    background: #84d9de;
    
     
     padding: 4px 16px;
@@ -374,3 +374,19 @@ h3{
     box-sizing: border-box;
 }
 
+
+
+/*----------- Gallery ---------------*/
+
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: dense;
+}
+
+.gallery img{
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
