@@ -379,6 +379,34 @@ h3{
 /*----------- Gallery ---------------*/
 
 .gallery{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+   
+    background: #fff3fe;
+   
+    
+    padding: 4px 12px;
+    box-sizing: border-box;
+}
+
+.col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col h4{
+    text-align: center;
+}
+.gallery{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: dense;
